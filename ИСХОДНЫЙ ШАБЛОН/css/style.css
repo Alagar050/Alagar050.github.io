@@ -1,0 +1,160 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+img {
+	width: 100%;
+}
+h2,h3 {
+	padding: 0;
+	margin: 0;
+}
+/* Стили для первого экрана */
+header {
+	padding: 0;
+	background-color: #1157db;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 22px;
+}
+.header-text {
+	margin-top: 102px;
+	font-size: 18px;
+	font-weight: 700;
+}
+header h1 {
+	margin-top: 21px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 36.81px;
+	margin-bottom: 20px;
+}
+.header-subtext {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 33px;
+}
+.header-btn-block {
+	max-width: 200px;
+}
+.header-btn {
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	border: none;
+	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	border-radius: 25px;
+	background-color: #ffffff;
+	padding: 17px 55px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+header small {
+	font-size: 12px;
+	font-weight: 400;
+	display: block;
+	text-align: center;
+}
+/* Стили для Портфолио */
+.portfolio {
+	background-color: #dddddd;
+	padding-top: 44px;
+	padding-bottom: 71px;
+}
+.portfolio-block {
+	background-color: #fff;
+	padding-bottom: 31px;
+}
+.portfolio-title,.portfolio-subtitle {
+	text-align: center;
+}
+.portfolio-title {
+	padding-top: 30px;
+	color: #072b6f;
+	font-size: 18px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.portfolio-subtitle {
+	margin-top: 10px;
+	color: #7bb9ff;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.portfolio-block h3 {
+	margin-top: 16px;
+	margin-bottom: 20px;
+	color: #072b6f;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.portfolio-description {
+	color: #8f8f8f;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 19px
+}
+.portfolio-block a {
+	color: #072b6f;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+}
+.portfolio-col-1 {
+	padding-left: 50px;
+}
+.portfolio-col-2 {
+	padding-right: 50px;
+}
+/* Стили для Футера */
+footer {
+	background-color: #3a7dfd;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+.social-block {
+	text-align: center;
+	color: #deedfe;
+}
+.social-block img {
+	width: 40px;
+	height: 40px;
+	margin-right: 22px;
+}
+.footer-title {
+	color: #fefefe;
+	font-size: 24px;
+	font-weight: 700;
+}
+.footer-subtitle {
+	color: #deedfe;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 7px;
+}
+.footer-button {
+	border: 1px solid #ffffff;
+	border-radius: 24px;
+	color: #deedfe;
+	font-size: 18px;
+	font-weight: 400;
+	background: transparent;
+	padding: 15px 43px;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
+	transition: 0.5s;
+}
+.footer-cta {
+	text-align: center;
+}
